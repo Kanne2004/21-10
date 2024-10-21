@@ -14,11 +14,6 @@ public class test : MonoBehaviour
     void OnDisable()
     {
         Debug.Log("PrintOnDisable: script was disabled");
-        for( ;i<50 ; )
-        {
-            i++;
-            Debug.Log($"{i}");
-        }
     }
 
     void OnEnable()
